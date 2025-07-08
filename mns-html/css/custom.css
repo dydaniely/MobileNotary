@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+.schedule-btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.schedule-btn:hover {
+    background-color: #218838;
+}
+
+.services {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.services h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.services ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.services li:last-child {
+    border-bottom: none;
+}
+
+.section-title::before {
+    content: "\1F4DC"; /* 📜 */
+    margin-right: 10px;
+}
+
+.fingerprint.section-title::before {
+    content: "\1F50D"; /* 🔍 */
+    margin-right: 10px;
+}
